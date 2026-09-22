@@ -1,0 +1,83 @@
+[
+ {
+  "cycles": 8,
+  "two_qubit_gates": 204,
+  "width": 11.0,
+  "log10_camp": 5.087227552205976,
+  "fitted_fidelity": 0.1085606585829253,
+  "work_flops": 1061671131824.8905,
+  "frontier_seconds": 3.1503594416168857e-06
+ },
+ {
+  "cycles": 12,
+  "two_qubit_gates": 306,
+  "width": 20.0,
+  "log10_camp": 7.9296382043886195,
+  "fitted_fidelity": 0.06267443979722838,
+  "work_flops": 426401429689282.6,
+  "frontier_seconds": 0.0012652861415112244
+ },
+ {
+  "cycles": 16,
+  "two_qubit_gates": 408,
+  "width": 27.0,
+  "log10_camp": 10.529046514880063,
+  "fitted_fidelity": 0.03618332326987398,
+  "work_flops": 9.786895567819106e+16,
+  "frontier_seconds": 0.29041233138929096
+ },
+ {
+  "cycles": 20,
+  "two_qubit_gates": 510,
+  "width": 34.0,
+  "log10_camp": 12.954136769322623,
+  "fitted_fidelity": 0.020889422978298423,
+  "work_flops": 1.503672302323995e+19,
+  "frontier_seconds": 44.61935615204733
+ },
+ {
+  "cycles": 24,
+  "two_qubit_gates": 612,
+  "width": 43.0,
+  "log10_camp": 15.449862096300997,
+  "fitted_fidelity": 0.012059920232080495,
+  "work_flops": 2.718294576032732e+21,
+  "frontier_seconds": 8066.156011966565
+ },
+ {
+  "cycles": 28,
+  "two_qubit_gates": 714,
+  "width": 49.0,
+  "log10_camp": 17.580434155354226,
+  "fitted_fidelity": 0.006962455408904339,
+  "work_flops": 2.1197593965328446e+23,
+  "frontier_seconds": 629008.7230067789
+ },
+ {
+  "cycles": 32,
+  "two_qubit_gates": 816,
+  "width": 56.0,
+  "log10_camp": 19.827176599825695,
+  "fitted_fidelity": 0.004019577608152934,
+  "work_flops": 2.1599664479858265e+25,
+  "frontier_seconds": 64093959.88088506
+ },
+ {
+  "cycles": 36,
+  "two_qubit_gates": 918,
+  "width": 64.0,
+  "log10_camp": 21.821851438920437,
+  "fitted_fidelity": 0.0023205899641814787,
+  "work_flops": 1.2317989672487213e+27,
+  "frontier_seconds": 3655189813.794425
+ },
+ {
+  "cycles": 40,
+  "two_qubit_gates": 1020,
+  "width": 65.0,
+  "log10_camp": 22.027100691518406,
+  "fitted_fidelity": 0.0013397272815275634,
+  "work_flops": 1.1407936096093544e+27,
+  "frontier_seconds": 3385144242.1642566
+ }
+]

@@ -1,0 +1,1870 @@
+{
+ "format": "QPY (qiskit 1.4, format 13) and OpenQASM 3",
+ "count": 233,
+ "circuits": [
+  {
+   "file": "mirror/d04_instance0.qpy",
+   "qasm3": "mirror/d04_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 94,
+   "sha256": "bc3d82415612aa2e295cdb46c1ab7c3073ad62d29a3881224514e837d2eb663b"
+  },
+  {
+   "file": "mirror/d04_instance1.qpy",
+   "qasm3": "mirror/d04_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 94,
+   "sha256": "87d1519eb1652503a6694b10e474d961d4ed8f4266a887ae6c73853481ab9c80"
+  },
+  {
+   "file": "mirror/d04_instance2.qpy",
+   "qasm3": "mirror/d04_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 94,
+   "sha256": "d20037c153b85da58c3a267eab64a2d931a93db6864d0b734c24eb5310e9da06"
+  },
+  {
+   "file": "mirror/d06_instance0.qpy",
+   "qasm3": "mirror/d06_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 150,
+   "sha256": "20a568951edaef239e0a6f13e09add5318d9cda08cde50d0aed52ddf7692ab26"
+  },
+  {
+   "file": "mirror/d06_instance1.qpy",
+   "qasm3": "mirror/d06_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 150,
+   "sha256": "44706dd98b0acd8008308d5d09882b7f98059bcc7a76fb7e2584235f61f64fca"
+  },
+  {
+   "file": "mirror/d06_instance2.qpy",
+   "qasm3": "mirror/d06_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 150,
+   "sha256": "862aad3fa2524a72aed0da2060834d91ea346a8c5abee26993ed83d248cd6e37"
+  },
+  {
+   "file": "mirror/d08_instance0.qpy",
+   "qasm3": "mirror/d08_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 190,
+   "sha256": "c21b711f767230ec07c8d782fa24128d43e6d9dc0e3b43ec458a2950c9dff55d"
+  },
+  {
+   "file": "mirror/d08_instance1.qpy",
+   "qasm3": "mirror/d08_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 190,
+   "sha256": "04bca73e2ae35e326e460982f94d9ae7fab653276753e16be3a7b0527f229136"
+  },
+  {
+   "file": "mirror/d08_instance2.qpy",
+   "qasm3": "mirror/d08_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 190,
+   "sha256": "f3d7fff7f145a775f68327c3a4457c7a61a3a5a7cf08db5f7e0530ba0b117251"
+  },
+  {
+   "file": "mirror/d10_instance0.qpy",
+   "qasm3": "mirror/d10_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 232,
+   "sha256": "61a1a80280f578ab1264414ac4715b0a1d311f556b499e0147631dd1b03d67f0"
+  },
+  {
+   "file": "mirror/d10_instance1.qpy",
+   "qasm3": "mirror/d10_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 232,
+   "sha256": "bcac80ee5918d35801e3b7595d06fd0c1b7a12e4f7ca227c1a45dfd650eeb6bf"
+  },
+  {
+   "file": "mirror/d10_instance2.qpy",
+   "qasm3": "mirror/d10_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 232,
+   "sha256": "8061db0d003a724d3a866a72a7cb620cf0575d52e32f8faa130be1223356445b"
+  },
+  {
+   "file": "mirror/d12_instance0.qpy",
+   "qasm3": "mirror/d12_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 264,
+   "sha256": "deec4acf80163aeb1fefe789abcab102f5f54e399a9fc9706a117da35380a1c4"
+  },
+  {
+   "file": "mirror/d12_instance1.qpy",
+   "qasm3": "mirror/d12_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 264,
+   "sha256": "16b6626e4820bbc40591cb388afe276fda5d8176dbc4ef3eaeb597768d4a84b2"
+  },
+  {
+   "file": "mirror/d12_instance2.qpy",
+   "qasm3": "mirror/d12_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 264,
+   "sha256": "ec20c113caed1919fc8b2744cbfc8a2be9a1826d6d9b5b13b0fb257475532c01"
+  },
+  {
+   "file": "mirror/d14_instance0.qpy",
+   "qasm3": "mirror/d14_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 312,
+   "sha256": "251e29b260f366be93b3a53775429bbb0e0028a826013468a6ea52abcdda93be"
+  },
+  {
+   "file": "mirror/d14_instance1.qpy",
+   "qasm3": "mirror/d14_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 312,
+   "sha256": "a495cc576ac9dc0c9b4951db550ca706b8de83fa775bcf96ff9cc6fa4e0453b7"
+  },
+  {
+   "file": "mirror/d14_instance2.qpy",
+   "qasm3": "mirror/d14_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 312,
+   "sha256": "926c245a8491ab0564b6b26ab06e1ce2c0c6d9f67d9ef3b9b4d10039082147b6"
+  },
+  {
+   "file": "mirror/d16_instance0.qpy",
+   "qasm3": "mirror/d16_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 348,
+   "sha256": "eed1f4f275b1f9ab96c19b7930a31fc953fb8bc907a673dcc3bd305b284eb1b3"
+  },
+  {
+   "file": "mirror/d16_instance1.qpy",
+   "qasm3": "mirror/d16_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 348,
+   "sha256": "312a14e05220c3e7099bdcf0a787dcf1edcdf2f02a52d0ea5edb6bc31e66c08d"
+  },
+  {
+   "file": "mirror/d16_instance2.qpy",
+   "qasm3": "mirror/d16_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 348,
+   "sha256": "356d6b3cc8d5baaa714f3a01a806e5e004d0ece77ed3c9fdec776f8a8b112533"
+  },
+  {
+   "file": "mirror/d18_instance0.qpy",
+   "qasm3": "mirror/d18_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 398,
+   "sha256": "7d22adfb4acf824d0fedaaf611857c5fa92b3963757ee6490af87827e8764be6"
+  },
+  {
+   "file": "mirror/d18_instance1.qpy",
+   "qasm3": "mirror/d18_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 398,
+   "sha256": "5c8558398f1210fcbd2dbd4a5900693a976a93abe8dfddb70ff3e5b3179c7990"
+  },
+  {
+   "file": "mirror/d18_instance2.qpy",
+   "qasm3": "mirror/d18_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 398,
+   "sha256": "7e1c842e67f6251e030f283ded3ee80cdd2ae06244ef5ec9c3d909027e6ccb19"
+  },
+  {
+   "file": "mirror/d20_instance0.qpy",
+   "qasm3": "mirror/d20_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 442,
+   "sha256": "4dd9e66c34c132e2865905ec346e4587a56c32752fc095d79dca0afd43e9a917"
+  },
+  {
+   "file": "mirror/d20_instance1.qpy",
+   "qasm3": "mirror/d20_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 442,
+   "sha256": "1fa754e00459dad6e00c808205ba24d5fa4af8db1073f89924d6fb1c641fe598"
+  },
+  {
+   "file": "mirror/d20_instance2.qpy",
+   "qasm3": "mirror/d20_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 442,
+   "sha256": "2a3e3d4bcb52a03646b8990f242c302858da085c82700737405a0bfa7bac7303"
+  },
+  {
+   "file": "mirror/d24_instance0.qpy",
+   "qasm3": "mirror/d24_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 532,
+   "sha256": "6841ea49de3b3612a5a5e55963ccbe56b2e58c05923f04d449d3b72f41694a7d"
+  },
+  {
+   "file": "mirror/d24_instance1.qpy",
+   "qasm3": "mirror/d24_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 532,
+   "sha256": "cf7b0e039c504193e95acefeeffcf7f4fac4547c7915f938b7da2343b83920c1"
+  },
+  {
+   "file": "mirror/d24_instance2.qpy",
+   "qasm3": "mirror/d24_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 532,
+   "sha256": "35c4228ca221e3db717d62187ebdb5b90dfc49ed1943604dbe7fbdbd402ac99c"
+  },
+  {
+   "file": "mirror/d28_instance0.qpy",
+   "qasm3": "mirror/d28_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "745c7b7a619c76aa396086675023d2fe8a810d5880a1c95976455164a847bcce"
+  },
+  {
+   "file": "mirror/d28_instance1.qpy",
+   "qasm3": "mirror/d28_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "0c95dc92a3a32f1b7f40bc74f72c111c5f9426306b449a6b43b0e5f97f1e65db"
+  },
+  {
+   "file": "mirror/d28_instance2.qpy",
+   "qasm3": "mirror/d28_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "197e6b38afc46cfb8a38a3251f6f6c7f17e8b0509962e1b86a05bac427c5d633"
+  },
+  {
+   "file": "mirror/d32_instance0.qpy",
+   "qasm3": "mirror/d32_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 706,
+   "sha256": "923b22faf138adb0bc2eb1db43df8bf36fa8830582ecd252c7fb9d0a8d538f6c"
+  },
+  {
+   "file": "mirror/d32_instance1.qpy",
+   "qasm3": "mirror/d32_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 706,
+   "sha256": "bf072fc5f332ff47fa45d7fb07b07c9e702b85bc2e7e6e4801e136ae3153167f"
+  },
+  {
+   "file": "mirror/d32_instance2.qpy",
+   "qasm3": "mirror/d32_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 706,
+   "sha256": "adb47840f82943af47cc11c3eff140968e31b415bb2c0cc874e8818d5b9bd05c"
+  },
+  {
+   "file": "mirror/d36_instance0.qpy",
+   "qasm3": "mirror/d36_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 802,
+   "sha256": "cf0159e230ae1d4b288f5a36f483c8434e7983110b49d007d28d1b34cca6af9b"
+  },
+  {
+   "file": "mirror/d36_instance1.qpy",
+   "qasm3": "mirror/d36_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 802,
+   "sha256": "c5f578d73dcb1e6415aea0bdb4a21365cc31cded3f5e11e38877941b6d00d94d"
+  },
+  {
+   "file": "mirror/d36_instance2.qpy",
+   "qasm3": "mirror/d36_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 802,
+   "sha256": "69db910fe1df59dd814dfee9343dae77780ed99ce88b4eafd02fe3c1fb32e28d"
+  },
+  {
+   "file": "mirror/d40_instance0.qpy",
+   "qasm3": "mirror/d40_instance0.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 888,
+   "sha256": "8009dc34ca97dc86ef8ef603ca16d36e6f2a3963eeeb4252c8e1c2ae5aa47cd9"
+  },
+  {
+   "file": "mirror/d40_instance1.qpy",
+   "qasm3": "mirror/d40_instance1.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 888,
+   "sha256": "ac38e93994d6bd2b80eef0dc7b9f89034f6ce578ed27029c486452e36b7e500e"
+  },
+  {
+   "file": "mirror/d40_instance2.qpy",
+   "qasm3": "mirror/d40_instance2.qasm",
+   "kind": "mirror",
+   "num_qubits": 61,
+   "cz": 888,
+   "sha256": "de7b1aa334917f21f4fcf7b2f86bf0743da608fef72c04e5d390dd9a688a098e"
+  },
+  {
+   "file": "patched/K3/d20/partition0_instance0.qpy",
+   "qasm3": "patched/K3/d20/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 450,
+   "sha256": "24ed210ac7ed24642c6bbe18fd07118c5ce51ad2de929010f50e9a8db5e0b42a"
+  },
+  {
+   "file": "patched/K3/d20/partition0_instance1.qpy",
+   "qasm3": "patched/K3/d20/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 450,
+   "sha256": "e7e61fb675d9b5be900af88b0125ab65e2002e4e8944245a1865576f7513b9ea"
+  },
+  {
+   "file": "patched/K3/d20/partition0_instance2.qpy",
+   "qasm3": "patched/K3/d20/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 450,
+   "sha256": "bceeedcabf199c4cf3c503aadd21f79488e287be5a8faf1bb263b5a8efd3280d"
+  },
+  {
+   "file": "patched/K3/d20/partition1_instance0.qpy",
+   "qasm3": "patched/K3/d20/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 445,
+   "sha256": "ea804ecb045d3d8dcca89e2a7a06eb7f9455b63a086383ac2971337924fe35f4"
+  },
+  {
+   "file": "patched/K3/d20/partition1_instance1.qpy",
+   "qasm3": "patched/K3/d20/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 445,
+   "sha256": "44e448cfc1c9ab724f0ee829077ff418fcbb33624b1624428efb3adb445a5dd8"
+  },
+  {
+   "file": "patched/K3/d20/partition1_instance2.qpy",
+   "qasm3": "patched/K3/d20/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 445,
+   "sha256": "9dcb703415c4e2d14b4e00eda03d395ca018ac643a5d97cf4441256a1d61c661"
+  },
+  {
+   "file": "patched/K3/d20/partition2_instance0.qpy",
+   "qasm3": "patched/K3/d20/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 445,
+   "sha256": "17ddb324c2bdc8d920ca5b526cd3467a2b4962dc9109922154c81b1b401890a9"
+  },
+  {
+   "file": "patched/K3/d20/partition2_instance1.qpy",
+   "qasm3": "patched/K3/d20/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 445,
+   "sha256": "99e46dd73775987a121c3d49ae7bc206a21bc21477aad2cccf550da3bc0c90a5"
+  },
+  {
+   "file": "patched/K3/d20/partition2_instance2.qpy",
+   "qasm3": "patched/K3/d20/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 445,
+   "sha256": "7a81b3cac6f58e047cb7dc35576a194b9219ba4a501a9df4b79f7acae6f4694e"
+  },
+  {
+   "file": "patched/K3/d20/partition3_instance0.qpy",
+   "qasm3": "patched/K3/d20/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 440,
+   "sha256": "b299c8a7b6f330e37ae91d103f3e1fd5505760372fc5e48f0531c7e350ad178d"
+  },
+  {
+   "file": "patched/K3/d20/partition3_instance1.qpy",
+   "qasm3": "patched/K3/d20/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 440,
+   "sha256": "0a206dfeb384ccda307ebd31f1627979832e86fcea13420a3115c0109d1820a7"
+  },
+  {
+   "file": "patched/K3/d20/partition3_instance2.qpy",
+   "qasm3": "patched/K3/d20/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 440,
+   "sha256": "175d288ec1abaa54a95def9b59cb8cfdede3d8d14e693d1f5b460c15aacddc37"
+  },
+  {
+   "file": "patched/K3/d20/partition4_instance0.qpy",
+   "qasm3": "patched/K3/d20/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 440,
+   "sha256": "bf6f96de8f16e9d179b1f61c2f54b422c2cd6d4db9e96c45fd3186865baa48ec"
+  },
+  {
+   "file": "patched/K3/d20/partition4_instance1.qpy",
+   "qasm3": "patched/K3/d20/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 440,
+   "sha256": "a6c7edf12bbf5e868de9da2ba8a16df4af6d19327b0ab74519ababadc34f564c"
+  },
+  {
+   "file": "patched/K3/d20/partition4_instance2.qpy",
+   "qasm3": "patched/K3/d20/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 440,
+   "sha256": "9059b2800e0e4ae8723b4b0edcd294663c9e3490c20a99dce829915342575a5d"
+  },
+  {
+   "file": "patched/K3/d24/partition0_instance0.qpy",
+   "qasm3": "patched/K3/d24/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 540,
+   "sha256": "e43ed6b17c93ea759bb9494cf72d6cbd00b2606a23615358a08e7e71db0e70ac"
+  },
+  {
+   "file": "patched/K3/d24/partition0_instance1.qpy",
+   "qasm3": "patched/K3/d24/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 540,
+   "sha256": "2d15b1e603a34a9f967366996bb180ae6eb07545faa3249c8d170aba32e0f802"
+  },
+  {
+   "file": "patched/K3/d24/partition0_instance2.qpy",
+   "qasm3": "patched/K3/d24/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 540,
+   "sha256": "da3bfc40ccbb335328b778777ba85164741741d175a6590b2f0e423d907be709"
+  },
+  {
+   "file": "patched/K3/d24/partition1_instance0.qpy",
+   "qasm3": "patched/K3/d24/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 534,
+   "sha256": "a72973ab2d66223893ea13b3efa2bb794755a7d272c22b2851c4b6a7592289cd"
+  },
+  {
+   "file": "patched/K3/d24/partition1_instance1.qpy",
+   "qasm3": "patched/K3/d24/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 534,
+   "sha256": "2da141fe893790282b9e6f882c726d8f3de785880532f5e587d64c63a4419de3"
+  },
+  {
+   "file": "patched/K3/d24/partition1_instance2.qpy",
+   "qasm3": "patched/K3/d24/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 534,
+   "sha256": "11a12630e455aacf453e1435a6411171b451d808e2d7886252845b5f5f6c7cdf"
+  },
+  {
+   "file": "patched/K3/d24/partition2_instance0.qpy",
+   "qasm3": "patched/K3/d24/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 534,
+   "sha256": "9a66bd165894f2d0dc011252d7c57b4de9a9d542abd529d19142ec057d590dca"
+  },
+  {
+   "file": "patched/K3/d24/partition2_instance1.qpy",
+   "qasm3": "patched/K3/d24/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 534,
+   "sha256": "3d86e088ab969ecd237bcda0a60968067055450ccab027399a1a62446a2a43eb"
+  },
+  {
+   "file": "patched/K3/d24/partition2_instance2.qpy",
+   "qasm3": "patched/K3/d24/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 534,
+   "sha256": "ce0b16e282e5a14871abb2a0d07e91acfa25cfbdf043a6de4d3a7659bf019b2f"
+  },
+  {
+   "file": "patched/K3/d24/partition3_instance0.qpy",
+   "qasm3": "patched/K3/d24/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 528,
+   "sha256": "2a947ece5ecdac332bce2ddb345681acd1f98fd8ef48ed1c56a821f2f1e2b7d4"
+  },
+  {
+   "file": "patched/K3/d24/partition3_instance1.qpy",
+   "qasm3": "patched/K3/d24/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 528,
+   "sha256": "44ae80782079720d30e28af3d450fcb1f4cfced422ac73cdbdfb913b703bc6c1"
+  },
+  {
+   "file": "patched/K3/d24/partition3_instance2.qpy",
+   "qasm3": "patched/K3/d24/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 528,
+   "sha256": "06a177a9b50a37228fc6ac0ba04e0e8dd2a05dc2330094f4dfad4a77315c77da"
+  },
+  {
+   "file": "patched/K3/d24/partition4_instance0.qpy",
+   "qasm3": "patched/K3/d24/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 528,
+   "sha256": "12a1fa91fbb9cc868b66b4667bad30d0e58d46f842d2bf2f7d76810057840f84"
+  },
+  {
+   "file": "patched/K3/d24/partition4_instance1.qpy",
+   "qasm3": "patched/K3/d24/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 528,
+   "sha256": "214e03de04204c5f46ddec775bb754f904f89fb9a9eb29f63570f8ffcf84700b"
+  },
+  {
+   "file": "patched/K3/d24/partition4_instance2.qpy",
+   "qasm3": "patched/K3/d24/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 528,
+   "sha256": "6a5c5ac2aa54661f4294f88542814f97b92de6fb2c7670680ff5500affca3bc9"
+  },
+  {
+   "file": "patched/K3/d28/partition0_instance0.qpy",
+   "qasm3": "patched/K3/d28/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 630,
+   "sha256": "bbbc30bc1a992c8a436fa4580daed622dea924c2224c297094d3dbd302af2ed9"
+  },
+  {
+   "file": "patched/K3/d28/partition0_instance1.qpy",
+   "qasm3": "patched/K3/d28/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 630,
+   "sha256": "553c5895505f1108ce21f84eb33273968110cd2f40a8e137c535109bdfc73304"
+  },
+  {
+   "file": "patched/K3/d28/partition0_instance2.qpy",
+   "qasm3": "patched/K3/d28/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 630,
+   "sha256": "b3d2b7e2b2f7e7f441e18e8c11184e1d859ae93df31365bce88c504236ecf2d8"
+  },
+  {
+   "file": "patched/K3/d28/partition1_instance0.qpy",
+   "qasm3": "patched/K3/d28/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 623,
+   "sha256": "7a0f72cd4d8b7e862f3c57d46ca8fbfeae31fa8cb1e45be2462bbd19d1855476"
+  },
+  {
+   "file": "patched/K3/d28/partition1_instance1.qpy",
+   "qasm3": "patched/K3/d28/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 623,
+   "sha256": "b5592e24255a693b1a59c57df5c2caf9af2538a59853f98d6fa277822dfc8556"
+  },
+  {
+   "file": "patched/K3/d28/partition1_instance2.qpy",
+   "qasm3": "patched/K3/d28/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 623,
+   "sha256": "9f007bd5ada7918d1cf0dad083aa120c69e59ce9ffaba67f9ef5df9334f1f810"
+  },
+  {
+   "file": "patched/K3/d28/partition2_instance0.qpy",
+   "qasm3": "patched/K3/d28/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 623,
+   "sha256": "b88602e50ecb95675c690ba31746752d34cdf3a40be0b0877727bf30f2b41424"
+  },
+  {
+   "file": "patched/K3/d28/partition2_instance1.qpy",
+   "qasm3": "patched/K3/d28/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 623,
+   "sha256": "917f0f8a45a546e1eca20fcfe40c4e456a251434a9375cf9fce0d0741f38f262"
+  },
+  {
+   "file": "patched/K3/d28/partition2_instance2.qpy",
+   "qasm3": "patched/K3/d28/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 623,
+   "sha256": "6b8c7a713f72178c6ba025f7cb81b7ddc25d4296c4a7de401278b5f797ee843c"
+  },
+  {
+   "file": "patched/K3/d28/partition3_instance0.qpy",
+   "qasm3": "patched/K3/d28/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "d3761c6995fd6975c044aadaef9518d4a295b4a44ee0350609be50e246253484"
+  },
+  {
+   "file": "patched/K3/d28/partition3_instance1.qpy",
+   "qasm3": "patched/K3/d28/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "19947ceea750e7179e3ed918635d1ec037540464151e523c133926406799c31b"
+  },
+  {
+   "file": "patched/K3/d28/partition3_instance2.qpy",
+   "qasm3": "patched/K3/d28/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "9eb58daf26567ee9a0c96f5a86d1a05639c9a5585cd4a796d83747598d8ed1e6"
+  },
+  {
+   "file": "patched/K3/d28/partition4_instance0.qpy",
+   "qasm3": "patched/K3/d28/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "c7f5ff20ad64ca07603ea4b5b5ae2ad2409c2daf2e40b358cd5614a7f4191303"
+  },
+  {
+   "file": "patched/K3/d28/partition4_instance1.qpy",
+   "qasm3": "patched/K3/d28/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "99368597eb9c28dd58d4eccf7d321137d0e383baf9e2594f636063ab5eb3165b"
+  },
+  {
+   "file": "patched/K3/d28/partition4_instance2.qpy",
+   "qasm3": "patched/K3/d28/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 616,
+   "sha256": "48e03f64f8eeb3ec46f4671211dfb6825c6a8eae02c97e8770b16fcd52d11ae8"
+  },
+  {
+   "file": "patched/K3/d32/partition0_instance0.qpy",
+   "qasm3": "patched/K3/d32/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "cdcaca34ded2eb7e22e3a5f4cc653760ab794f752e12add5dfd4bf1d8c00c0b7"
+  },
+  {
+   "file": "patched/K3/d32/partition0_instance1.qpy",
+   "qasm3": "patched/K3/d32/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "7cf954ba2bbe96336fea71cb2b832af7d7f0955bce263a21bef44099caa71342"
+  },
+  {
+   "file": "patched/K3/d32/partition0_instance2.qpy",
+   "qasm3": "patched/K3/d32/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "a8ad667149cf107da5a9d71f44570b5fd493b5276a24ba6fb40dc6ebb24d3dec"
+  },
+  {
+   "file": "patched/K3/d32/partition1_instance0.qpy",
+   "qasm3": "patched/K3/d32/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 712,
+   "sha256": "8eb15f00ea9b537d0280e4603990912626e4a9799dd2c77a61809039b159a2bc"
+  },
+  {
+   "file": "patched/K3/d32/partition1_instance1.qpy",
+   "qasm3": "patched/K3/d32/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 712,
+   "sha256": "2531b66bab6c219858c37ea578200cf11f9d951b4032632b9b51511158b75180"
+  },
+  {
+   "file": "patched/K3/d32/partition1_instance2.qpy",
+   "qasm3": "patched/K3/d32/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 712,
+   "sha256": "13180bad1c1d7bf245aa86e33b0189ce2f3b1fe20ffc9d8d532a4134d337cb13"
+  },
+  {
+   "file": "patched/K3/d32/partition2_instance0.qpy",
+   "qasm3": "patched/K3/d32/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 712,
+   "sha256": "22f21603c43147320663c9e2e3ed7bf35ce6404ec3fe9912cefa3d47eed35ed2"
+  },
+  {
+   "file": "patched/K3/d32/partition2_instance1.qpy",
+   "qasm3": "patched/K3/d32/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 712,
+   "sha256": "22e964b3902b7800ff6e1b3eeefd7e3d937cb4f368eef1954ba60ce372a194f8"
+  },
+  {
+   "file": "patched/K3/d32/partition2_instance2.qpy",
+   "qasm3": "patched/K3/d32/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 712,
+   "sha256": "8d36525ef3ecf75e22e153daec84c7865192f63d54ddb5e996ae8aa85f2b26ec"
+  },
+  {
+   "file": "patched/K3/d32/partition3_instance0.qpy",
+   "qasm3": "patched/K3/d32/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 704,
+   "sha256": "62c21118304e7febfd9e56065fdbefec7d148a83a6906a5572fa9b7aad9281b2"
+  },
+  {
+   "file": "patched/K3/d32/partition3_instance1.qpy",
+   "qasm3": "patched/K3/d32/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 704,
+   "sha256": "5fdb20926ef4fcf12c6cece5d4429d1bd74102db9c15c6636525c6dfd3a430e8"
+  },
+  {
+   "file": "patched/K3/d32/partition3_instance2.qpy",
+   "qasm3": "patched/K3/d32/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 704,
+   "sha256": "0a25dc2b3ca02ae0943fb053cfb61c1281d6d1a9785d5d2687f3ba52a1ce9fdd"
+  },
+  {
+   "file": "patched/K3/d32/partition4_instance0.qpy",
+   "qasm3": "patched/K3/d32/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 704,
+   "sha256": "948eec6b6c8a362fba9f2146c6de0923bca2ee0959ddee7898200eb1c1a0bc47"
+  },
+  {
+   "file": "patched/K3/d32/partition4_instance1.qpy",
+   "qasm3": "patched/K3/d32/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 704,
+   "sha256": "9031051ba50c669bfecc265958942b67a78c11d0d9c86ce53a2c4d1b403bdbbf"
+  },
+  {
+   "file": "patched/K3/d32/partition4_instance2.qpy",
+   "qasm3": "patched/K3/d32/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 704,
+   "sha256": "8edc1fd767872b77ab7101ecf22bddf2be37bf03c9af19a883e34a3ba4aa0854"
+  },
+  {
+   "file": "patched/K3/d36/partition0_instance0.qpy",
+   "qasm3": "patched/K3/d36/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 810,
+   "sha256": "c4e3c01af5b4e7d5ea1b844c23ab3e13b8d9d27acce35959bc5cd3c43c934535"
+  },
+  {
+   "file": "patched/K3/d36/partition0_instance1.qpy",
+   "qasm3": "patched/K3/d36/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 810,
+   "sha256": "da5424fd7c50233b94802cf193f2a692475406151868ca216bb9ea19620da62f"
+  },
+  {
+   "file": "patched/K3/d36/partition0_instance2.qpy",
+   "qasm3": "patched/K3/d36/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 810,
+   "sha256": "a7e5f51dc85b8f69cce75e2bdb476c8db358f6ed3a2a5e43df32561b829d4b60"
+  },
+  {
+   "file": "patched/K3/d36/partition1_instance0.qpy",
+   "qasm3": "patched/K3/d36/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 801,
+   "sha256": "2287984df1817c584df1d063b6f4819591f51aecf43753334a59c9cdc122b0e5"
+  },
+  {
+   "file": "patched/K3/d36/partition1_instance1.qpy",
+   "qasm3": "patched/K3/d36/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 801,
+   "sha256": "98ef2a22e55326a295ae887895705285b5dfaca142aba2cd7c705a28fafa73fa"
+  },
+  {
+   "file": "patched/K3/d36/partition1_instance2.qpy",
+   "qasm3": "patched/K3/d36/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 801,
+   "sha256": "cbdb27b98b32ebe0ed0f3706fae33ad7e40f5a62fa969bf00b3f669d626b2506"
+  },
+  {
+   "file": "patched/K3/d36/partition2_instance0.qpy",
+   "qasm3": "patched/K3/d36/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 801,
+   "sha256": "b5ca7537af0ed87cc45f6192979ee1303cbbd52f01fa416f83157d23e4210e51"
+  },
+  {
+   "file": "patched/K3/d36/partition2_instance1.qpy",
+   "qasm3": "patched/K3/d36/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 801,
+   "sha256": "8f218f0d0f33c312493e584985df993cb810be203577adaf32947244c1176851"
+  },
+  {
+   "file": "patched/K3/d36/partition2_instance2.qpy",
+   "qasm3": "patched/K3/d36/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 801,
+   "sha256": "f0fae60a487ccf7d6bc24b1eebde3d9a4b15c2efa46d523e1b0e7cf4f00efe4b"
+  },
+  {
+   "file": "patched/K3/d36/partition3_instance0.qpy",
+   "qasm3": "patched/K3/d36/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 792,
+   "sha256": "13e32d62cc0f10f67565f0adeb4118062b15e27081e12c5318e71e7427109f4c"
+  },
+  {
+   "file": "patched/K3/d36/partition3_instance1.qpy",
+   "qasm3": "patched/K3/d36/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 792,
+   "sha256": "9124b3e6f4af2592a3c278955cce5cbadbb6c1c10ec629c0a46e39f7f3885d9a"
+  },
+  {
+   "file": "patched/K3/d36/partition3_instance2.qpy",
+   "qasm3": "patched/K3/d36/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 792,
+   "sha256": "45006a897b7b3be46739f1c24206bac0229a1cb431e56140841e551a2b609660"
+  },
+  {
+   "file": "patched/K3/d36/partition4_instance0.qpy",
+   "qasm3": "patched/K3/d36/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 792,
+   "sha256": "1023f7a11796f7d307be38d34e5dbe6f0d3cffdc2725fff7219cf89d7b9e16eb"
+  },
+  {
+   "file": "patched/K3/d36/partition4_instance1.qpy",
+   "qasm3": "patched/K3/d36/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 792,
+   "sha256": "4e4efaea077d82496616894aa375b1e3006ba4127e5fae6065a0e15dd5a75c63"
+  },
+  {
+   "file": "patched/K3/d36/partition4_instance2.qpy",
+   "qasm3": "patched/K3/d36/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 792,
+   "sha256": "0616a12b1ca2450768b49a6b0b3f173f955cf80cae6f952cb8a0d8f4fa9da89d"
+  },
+  {
+   "file": "patched/K3/d40/partition0_instance0.qpy",
+   "qasm3": "patched/K3/d40/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 900,
+   "sha256": "ab86dd9d0f949815322e1a6d281cd8823df01142b6426f9f4d48457177845f15"
+  },
+  {
+   "file": "patched/K3/d40/partition0_instance1.qpy",
+   "qasm3": "patched/K3/d40/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 900,
+   "sha256": "9ea44023e4b7c5443775903e9407a58a8f24d0aa8cd52c29ef47b814dc7e0b61"
+  },
+  {
+   "file": "patched/K3/d40/partition0_instance2.qpy",
+   "qasm3": "patched/K3/d40/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 900,
+   "sha256": "eb2168af63c20d618916bbb66a51a7c812b20f5fcaa6cc508de9205fef7710f5"
+  },
+  {
+   "file": "patched/K3/d40/partition1_instance0.qpy",
+   "qasm3": "patched/K3/d40/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 890,
+   "sha256": "3e88a20b7fafd3ccc700dc33618e2671a4257919ef2613f4fc3c283652390c29"
+  },
+  {
+   "file": "patched/K3/d40/partition1_instance1.qpy",
+   "qasm3": "patched/K3/d40/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 890,
+   "sha256": "b09dd166d3a28c720a69ab5d58a2e5ef520c3218ec79c30c413a1563f821b358"
+  },
+  {
+   "file": "patched/K3/d40/partition1_instance2.qpy",
+   "qasm3": "patched/K3/d40/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 890,
+   "sha256": "5bdf05194b1242a40aee18a289d1e6b5eb7d557c2719ac992c4a43ac58bd8275"
+  },
+  {
+   "file": "patched/K3/d40/partition2_instance0.qpy",
+   "qasm3": "patched/K3/d40/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 890,
+   "sha256": "149bec065792edd0c25cc8dacd7615d4eedf90576acf6a02f4be6052d9a2fa27"
+  },
+  {
+   "file": "patched/K3/d40/partition2_instance1.qpy",
+   "qasm3": "patched/K3/d40/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 890,
+   "sha256": "739ed54a1d134086ac595235d8ba32a40b6bcfe51ff44765ea5ed168258de623"
+  },
+  {
+   "file": "patched/K3/d40/partition2_instance2.qpy",
+   "qasm3": "patched/K3/d40/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 890,
+   "sha256": "97177fcc0fb8355922010182c00399376108636f7aea440f5d94d568a1d7ed62"
+  },
+  {
+   "file": "patched/K3/d40/partition3_instance0.qpy",
+   "qasm3": "patched/K3/d40/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 880,
+   "sha256": "9fcf4cfc61af3e793f57cdaa15600f0b8fb05777b5395fea37f68205e53b80bf"
+  },
+  {
+   "file": "patched/K3/d40/partition3_instance1.qpy",
+   "qasm3": "patched/K3/d40/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 880,
+   "sha256": "ab38835107f65f4abe0c28ece6bc0a66c68f858eb9407f485ee699f16025fbb3"
+  },
+  {
+   "file": "patched/K3/d40/partition3_instance2.qpy",
+   "qasm3": "patched/K3/d40/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 880,
+   "sha256": "3d7ba3627f8cd6663c25b115bd892c1a57e0fb9364671ece18545b8945adc446"
+  },
+  {
+   "file": "patched/K3/d40/partition4_instance0.qpy",
+   "qasm3": "patched/K3/d40/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 880,
+   "sha256": "b156b027e4b7e334ec9cdcbe5dcb7f966318d1d0430c27802ecb85b8be72daf6"
+  },
+  {
+   "file": "patched/K3/d40/partition4_instance1.qpy",
+   "qasm3": "patched/K3/d40/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 880,
+   "sha256": "207ed45e3a19e47efe3bf2bb37be57f7b7be7ab25455335649fa2a7bf5e93766"
+  },
+  {
+   "file": "patched/K3/d40/partition4_instance2.qpy",
+   "qasm3": "patched/K3/d40/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 880,
+   "sha256": "73c94673611e30ec161672560f8c36ccb0421f1064e2e302550715dbb37ed52b"
+  },
+  {
+   "file": "patched/K4/d20/partition0_instance0.qpy",
+   "qasm3": "patched/K4/d20/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 415,
+   "sha256": "779573bc2e8f719951392345333c02ed1933752de55a15f865d3b5e6921bef55"
+  },
+  {
+   "file": "patched/K4/d20/partition0_instance1.qpy",
+   "qasm3": "patched/K4/d20/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 415,
+   "sha256": "ba95c411a366362eea19a343d7d53e79ae58574bf4050859dcff3cda419db562"
+  },
+  {
+   "file": "patched/K4/d20/partition0_instance2.qpy",
+   "qasm3": "patched/K4/d20/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 415,
+   "sha256": "3a9f17c8ee0b10776dedc5f31ea63a074b62d65d426edeac84eb9d04d7cfe53a"
+  },
+  {
+   "file": "patched/K4/d20/partition1_instance0.qpy",
+   "qasm3": "patched/K4/d20/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 400,
+   "sha256": "9605c51af362a69f3a226eccf920e4ae5ae6c23f296cc6f67f588e1c7b59edfd"
+  },
+  {
+   "file": "patched/K4/d20/partition1_instance1.qpy",
+   "qasm3": "patched/K4/d20/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 400,
+   "sha256": "edc7e410a417a801183230fec6a6eef025c7192b5cb33c736f0c4cc1218c1cbd"
+  },
+  {
+   "file": "patched/K4/d20/partition1_instance2.qpy",
+   "qasm3": "patched/K4/d20/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 400,
+   "sha256": "c3f66ecf13c9ae28378f4116b22d85cfbb6feafd2d9a6ba8e4af984bed298ba2"
+  },
+  {
+   "file": "patched/K4/d20/partition2_instance0.qpy",
+   "qasm3": "patched/K4/d20/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 400,
+   "sha256": "116eb801f2f47f394a9112493e94bd88ac8b8a671992a6c558b30b09114cc416"
+  },
+  {
+   "file": "patched/K4/d20/partition2_instance1.qpy",
+   "qasm3": "patched/K4/d20/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 400,
+   "sha256": "5cedb4ab67c032691bb50893d32c2f2198ad9569fd5530c5fa9eba002b6ad359"
+  },
+  {
+   "file": "patched/K4/d20/partition2_instance2.qpy",
+   "qasm3": "patched/K4/d20/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 400,
+   "sha256": "63ac4c22f7bb90549234639c2f14fadf824ec8a2c6f815ad9a45dc0d6e13d1db"
+  },
+  {
+   "file": "patched/K4/d20/partition3_instance0.qpy",
+   "qasm3": "patched/K4/d20/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 395,
+   "sha256": "4e0a396804b18e4a2217bdc824eebcc35243b84030e4cb15a0413ccab7268d98"
+  },
+  {
+   "file": "patched/K4/d20/partition3_instance1.qpy",
+   "qasm3": "patched/K4/d20/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 395,
+   "sha256": "20ef537cd65d93651a028a0ce15c1a0f18c26935322f18625826df95e746fe4c"
+  },
+  {
+   "file": "patched/K4/d20/partition3_instance2.qpy",
+   "qasm3": "patched/K4/d20/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 395,
+   "sha256": "39c0b45e686315792c58321178b1dcada19a7f783ba0f15044ba9b101257c8cd"
+  },
+  {
+   "file": "patched/K4/d20/partition4_instance0.qpy",
+   "qasm3": "patched/K4/d20/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 395,
+   "sha256": "5d5d36cc50487f1233468f45de5108d65004a69672b0703d96f3f561a22b46e2"
+  },
+  {
+   "file": "patched/K4/d20/partition4_instance1.qpy",
+   "qasm3": "patched/K4/d20/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 395,
+   "sha256": "736f5373db4753c7353f2c5371de04a8d07b971f2db3f880a8bb008521527346"
+  },
+  {
+   "file": "patched/K4/d20/partition4_instance2.qpy",
+   "qasm3": "patched/K4/d20/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 395,
+   "sha256": "684c0a838aec952c9cd91bd1a47ac2a3d542e6d3cce4f9607e5644a14888eb25"
+  },
+  {
+   "file": "patched/K4/d24/partition0_instance0.qpy",
+   "qasm3": "patched/K4/d24/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 498,
+   "sha256": "9c60aa2932f1d824711c7fc411701af6e2abaebc4df6e20af4ccb9ed2255a0fb"
+  },
+  {
+   "file": "patched/K4/d24/partition0_instance1.qpy",
+   "qasm3": "patched/K4/d24/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 498,
+   "sha256": "6c540f6db2d21d81e3bb2073010007d09a6d63c17914f3f41ae626b987335af7"
+  },
+  {
+   "file": "patched/K4/d24/partition0_instance2.qpy",
+   "qasm3": "patched/K4/d24/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 498,
+   "sha256": "3d756c7beb2170cc61a94eca958900c9eec1485c4a3f66fd8f46b27c83c2aaa6"
+  },
+  {
+   "file": "patched/K4/d24/partition1_instance0.qpy",
+   "qasm3": "patched/K4/d24/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 480,
+   "sha256": "5717913636c826b73852ef61969a1922f7ba449f8d5de15bf2bd1f1d8789182f"
+  },
+  {
+   "file": "patched/K4/d24/partition1_instance1.qpy",
+   "qasm3": "patched/K4/d24/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 480,
+   "sha256": "34ea932b964696663fd6267028791ff314a0e0368ffd6155ebff1fccf23ca9e1"
+  },
+  {
+   "file": "patched/K4/d24/partition1_instance2.qpy",
+   "qasm3": "patched/K4/d24/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 480,
+   "sha256": "1d01bb297fec3df4e15091e5042ac5b3674466898d0c2f6d4d0e5437dee61413"
+  },
+  {
+   "file": "patched/K4/d24/partition2_instance0.qpy",
+   "qasm3": "patched/K4/d24/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 480,
+   "sha256": "89d3c765dbaf8520c88821a0a4407ae49947f41fffa64ed7a0e2381828616f96"
+  },
+  {
+   "file": "patched/K4/d24/partition2_instance1.qpy",
+   "qasm3": "patched/K4/d24/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 480,
+   "sha256": "93fcfca214d727d5b228d3b5044e1052b01a832511f23d0a92fd4236bbb1dc89"
+  },
+  {
+   "file": "patched/K4/d24/partition2_instance2.qpy",
+   "qasm3": "patched/K4/d24/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 480,
+   "sha256": "0758276bc582724fb9754e4f8fd0562ae78e967985504fb3d7dfd733c02e6bfc"
+  },
+  {
+   "file": "patched/K4/d24/partition3_instance0.qpy",
+   "qasm3": "patched/K4/d24/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 474,
+   "sha256": "ceb4af293142aae74b153e1a299c4d036926b6869b769d48d9e99858ddfe5d4e"
+  },
+  {
+   "file": "patched/K4/d24/partition3_instance1.qpy",
+   "qasm3": "patched/K4/d24/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 474,
+   "sha256": "657fa57cc16ef3e7276a798394c035b88072e43ff619e001528a0b48d11ef6c3"
+  },
+  {
+   "file": "patched/K4/d24/partition3_instance2.qpy",
+   "qasm3": "patched/K4/d24/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 474,
+   "sha256": "c23854e3276517e752b16141b325eecfa2cc7a74d0b1d6e51a03be9a81f80248"
+  },
+  {
+   "file": "patched/K4/d24/partition4_instance0.qpy",
+   "qasm3": "patched/K4/d24/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 474,
+   "sha256": "d6193687b5595d0dbb7ee67af42aa84a6bbdf02558120bedb55ed84935dc76e8"
+  },
+  {
+   "file": "patched/K4/d24/partition4_instance1.qpy",
+   "qasm3": "patched/K4/d24/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 474,
+   "sha256": "5c644061055a7fdfbf898cfed5a7e4b72bafd8301405b784cc724a4e4191058f"
+  },
+  {
+   "file": "patched/K4/d24/partition4_instance2.qpy",
+   "qasm3": "patched/K4/d24/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 474,
+   "sha256": "f4e81041984f86deaae545066247b93007e1e4d22de7a033181603d13e6049b3"
+  },
+  {
+   "file": "patched/K4/d28/partition0_instance0.qpy",
+   "qasm3": "patched/K4/d28/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 581,
+   "sha256": "e0dc53b2f9124c0c260019059a902213dee620dee3797c6c98eaba3a9237e365"
+  },
+  {
+   "file": "patched/K4/d28/partition0_instance1.qpy",
+   "qasm3": "patched/K4/d28/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 581,
+   "sha256": "be3dcfa3f753f34eebc40ce56860f207827eb99275c8add5e24b9b9a92a38878"
+  },
+  {
+   "file": "patched/K4/d28/partition0_instance2.qpy",
+   "qasm3": "patched/K4/d28/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 581,
+   "sha256": "4f7c5f8f9ede46a1ecfc0b19aa231284cd2d5b69e771cfbfd14896036b4f87c3"
+  },
+  {
+   "file": "patched/K4/d28/partition1_instance0.qpy",
+   "qasm3": "patched/K4/d28/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 560,
+   "sha256": "077cc0cdf0db6c0dc7578e117513cd0c54ab81b5858a14b2949e45ab791d0fa2"
+  },
+  {
+   "file": "patched/K4/d28/partition1_instance1.qpy",
+   "qasm3": "patched/K4/d28/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 560,
+   "sha256": "df274ac5f29cd1b7de968112da29f1b3b4fe9c3045931a9922a87139b9bd75d3"
+  },
+  {
+   "file": "patched/K4/d28/partition1_instance2.qpy",
+   "qasm3": "patched/K4/d28/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 560,
+   "sha256": "5d721c84a3d3d00872648922915392f332cfa5488d715e20008e838642cd1f48"
+  },
+  {
+   "file": "patched/K4/d28/partition2_instance0.qpy",
+   "qasm3": "patched/K4/d28/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 560,
+   "sha256": "1b16a6bd64bd1a29d535da572e45758eababd3ddb5a24b42eb5808b3b25e314f"
+  },
+  {
+   "file": "patched/K4/d28/partition2_instance1.qpy",
+   "qasm3": "patched/K4/d28/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 560,
+   "sha256": "eea85aad3c251c363fa93511b7eeff922a30dd70c2d893e76aa43096de07cf2c"
+  },
+  {
+   "file": "patched/K4/d28/partition2_instance2.qpy",
+   "qasm3": "patched/K4/d28/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 560,
+   "sha256": "b179d98454b489e44f73486b71c6e59263715712c58501c2118896b8dc16b0c7"
+  },
+  {
+   "file": "patched/K4/d28/partition3_instance0.qpy",
+   "qasm3": "patched/K4/d28/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 553,
+   "sha256": "0d0d0db3845c500e80de280bbab37c44142b56f16ebaa789ff6d8ecb12429617"
+  },
+  {
+   "file": "patched/K4/d28/partition3_instance1.qpy",
+   "qasm3": "patched/K4/d28/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 553,
+   "sha256": "484e1a7a3814821cfb6b320586e85165070743d37cbb0b2c502ea837e71390ff"
+  },
+  {
+   "file": "patched/K4/d28/partition3_instance2.qpy",
+   "qasm3": "patched/K4/d28/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 553,
+   "sha256": "dad1999f861984cd9fcc638c4fe3872bb6880a6418899fac17046da520e5e51c"
+  },
+  {
+   "file": "patched/K4/d28/partition4_instance0.qpy",
+   "qasm3": "patched/K4/d28/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 553,
+   "sha256": "6ddff2135e03ffd689216a8c4e7c20717dbc0b20563f263b8299225bcb48909e"
+  },
+  {
+   "file": "patched/K4/d28/partition4_instance1.qpy",
+   "qasm3": "patched/K4/d28/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 553,
+   "sha256": "d912080d35b78e547d3c2d2958ef6a8cf57c7b42c5928e96217d4af136caa21c"
+  },
+  {
+   "file": "patched/K4/d28/partition4_instance2.qpy",
+   "qasm3": "patched/K4/d28/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 553,
+   "sha256": "0b0557d40f5ae7fab52079e134bef1d5731f0d9916c2e2da49af5bff21449439"
+  },
+  {
+   "file": "patched/K4/d32/partition0_instance0.qpy",
+   "qasm3": "patched/K4/d32/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 664,
+   "sha256": "ae870d53446c301ebb6683979e06a143627fb3dc7365c6f361b7d17b4fe895e3"
+  },
+  {
+   "file": "patched/K4/d32/partition0_instance1.qpy",
+   "qasm3": "patched/K4/d32/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 664,
+   "sha256": "9fc722b6d9e7e3a6d53a6292a3a2da966e00ab239cdc5736007c9159e49efdc6"
+  },
+  {
+   "file": "patched/K4/d32/partition0_instance2.qpy",
+   "qasm3": "patched/K4/d32/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 664,
+   "sha256": "95d742b06d7e1f7641ad4c79ad2b76c9a7222efb2b9f429f534dcf288cfd239f"
+  },
+  {
+   "file": "patched/K4/d32/partition1_instance0.qpy",
+   "qasm3": "patched/K4/d32/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 640,
+   "sha256": "db1c680335c7cbc6335faa07a43ebcb77a287f38346836aa6fba134a674511c9"
+  },
+  {
+   "file": "patched/K4/d32/partition1_instance1.qpy",
+   "qasm3": "patched/K4/d32/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 640,
+   "sha256": "1a6474ecd8a79a4e87236193d978a270deed9213c8054520e96029cb69f4196a"
+  },
+  {
+   "file": "patched/K4/d32/partition1_instance2.qpy",
+   "qasm3": "patched/K4/d32/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 640,
+   "sha256": "2412bb841140eef7991683e8caf45a12b9e085abfce3955c38cacc1537e5dcf1"
+  },
+  {
+   "file": "patched/K4/d32/partition2_instance0.qpy",
+   "qasm3": "patched/K4/d32/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 640,
+   "sha256": "dcd94581d3d66082322d379f3957f3c501fa8e587059d346cfb21128db3d7447"
+  },
+  {
+   "file": "patched/K4/d32/partition2_instance1.qpy",
+   "qasm3": "patched/K4/d32/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 640,
+   "sha256": "68d600989a7b908bb4754d61e349d3378fc777f2214708b5358529fcc287b0a9"
+  },
+  {
+   "file": "patched/K4/d32/partition2_instance2.qpy",
+   "qasm3": "patched/K4/d32/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 640,
+   "sha256": "d063d3ff1e9c1d37a3f87e1fec725ed1fb1a8a1dd2dc833f7f843f39492d13ab"
+  },
+  {
+   "file": "patched/K4/d32/partition3_instance0.qpy",
+   "qasm3": "patched/K4/d32/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 632,
+   "sha256": "daa0955a9c24f571a7b7dcb8a914cceb577eb2979c8175a84ab644fa36e949cc"
+  },
+  {
+   "file": "patched/K4/d32/partition3_instance1.qpy",
+   "qasm3": "patched/K4/d32/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 632,
+   "sha256": "4114a22de94d709d19eb94526c19013321a7addaff72fcaecd16d7ac4e1a7486"
+  },
+  {
+   "file": "patched/K4/d32/partition3_instance2.qpy",
+   "qasm3": "patched/K4/d32/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 632,
+   "sha256": "f50ddb8805f7b556bbb4d25b963f24a16dd7a409db262524969f0856c13610cb"
+  },
+  {
+   "file": "patched/K4/d32/partition4_instance0.qpy",
+   "qasm3": "patched/K4/d32/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 632,
+   "sha256": "a0f49883263f502e25fd585eaedfa38ddbb2977b0da9cd3b692da38152d08c2b"
+  },
+  {
+   "file": "patched/K4/d32/partition4_instance1.qpy",
+   "qasm3": "patched/K4/d32/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 632,
+   "sha256": "06e781b4c196a427ffda9c96f5fe32c9670b3073c966a621a8394eba3a5c342c"
+  },
+  {
+   "file": "patched/K4/d32/partition4_instance2.qpy",
+   "qasm3": "patched/K4/d32/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 632,
+   "sha256": "b1f1f9c96c2f6cc6ab1b0329792d2957f7429be96ac1989ee2d5ee676653ae94"
+  },
+  {
+   "file": "patched/K4/d36/partition0_instance0.qpy",
+   "qasm3": "patched/K4/d36/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 747,
+   "sha256": "53cceaaa85441df3c0c74cd241f5059e430bd82434ab71eb224fc5d197cc0997"
+  },
+  {
+   "file": "patched/K4/d36/partition0_instance1.qpy",
+   "qasm3": "patched/K4/d36/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 747,
+   "sha256": "8f7754a0403337badd5089cb123204fb714575c90f2730ccd33ed24f1bafd4a3"
+  },
+  {
+   "file": "patched/K4/d36/partition0_instance2.qpy",
+   "qasm3": "patched/K4/d36/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 747,
+   "sha256": "90e0e5fba670b51082f189eb0dc36009fbe9cc908d3c6bca46ea1514b05f6aa0"
+  },
+  {
+   "file": "patched/K4/d36/partition1_instance0.qpy",
+   "qasm3": "patched/K4/d36/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "db152fd72674cde8a07b1bfd386d528de34df619cd18dc7ce4162d8fbf5dc8d8"
+  },
+  {
+   "file": "patched/K4/d36/partition1_instance1.qpy",
+   "qasm3": "patched/K4/d36/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "d6dfe53f8cdccccf672f28a1d5e5d240246a48caf206b9013561f69e6be2e5ef"
+  },
+  {
+   "file": "patched/K4/d36/partition1_instance2.qpy",
+   "qasm3": "patched/K4/d36/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "4603a5e0238ecf270506c8869a53a454f689e45791bac5e4712dd29870819918"
+  },
+  {
+   "file": "patched/K4/d36/partition2_instance0.qpy",
+   "qasm3": "patched/K4/d36/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "31e400ac3ae5b56f4c44d2b3d26d56324df735aaca42717233f49227b5240150"
+  },
+  {
+   "file": "patched/K4/d36/partition2_instance1.qpy",
+   "qasm3": "patched/K4/d36/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "118e6866bd78aa74bc7586005c1102541e060b776c2a34799f71479ce0198af9"
+  },
+  {
+   "file": "patched/K4/d36/partition2_instance2.qpy",
+   "qasm3": "patched/K4/d36/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 720,
+   "sha256": "f8f1407ed2a72a4075b8c199e6dda056b552291fdac4a4d44a6133c5b7d5c8ce"
+  },
+  {
+   "file": "patched/K4/d36/partition3_instance0.qpy",
+   "qasm3": "patched/K4/d36/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 711,
+   "sha256": "5ed6134ed0d94f032fdd5fd63502c630036fa2b783fd398ba8154270406cd2f7"
+  },
+  {
+   "file": "patched/K4/d36/partition3_instance1.qpy",
+   "qasm3": "patched/K4/d36/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 711,
+   "sha256": "385f845cd7662f7e7638d6233be18f0ea036ee4b5287ed5bfa20b7934fc4ccef"
+  },
+  {
+   "file": "patched/K4/d36/partition3_instance2.qpy",
+   "qasm3": "patched/K4/d36/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 711,
+   "sha256": "a77094dcc822571893a29156d70fb53aa60601737bf157dcbf170c448b4bd0d9"
+  },
+  {
+   "file": "patched/K4/d36/partition4_instance0.qpy",
+   "qasm3": "patched/K4/d36/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 711,
+   "sha256": "c53bc641fa0d80d68d5b651a900c07d33c8e96a6de133229e1cf97d8b8ba3fdf"
+  },
+  {
+   "file": "patched/K4/d36/partition4_instance1.qpy",
+   "qasm3": "patched/K4/d36/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 711,
+   "sha256": "99290b80db0aa59dbadd3d6980758f9f665e4989e585ed6cab61f9ec4ff12769"
+  },
+  {
+   "file": "patched/K4/d36/partition4_instance2.qpy",
+   "qasm3": "patched/K4/d36/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 711,
+   "sha256": "409346cb55ee7b1da33d5e608bf913d4c6ddf9b20c4831242650f90fe8694a53"
+  },
+  {
+   "file": "patched/K4/d40/partition0_instance0.qpy",
+   "qasm3": "patched/K4/d40/partition0_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 830,
+   "sha256": "c802a7483a9fb7229927b950a12759f759f623dbf9b7e845c7fe6155b1c1c1dc"
+  },
+  {
+   "file": "patched/K4/d40/partition0_instance1.qpy",
+   "qasm3": "patched/K4/d40/partition0_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 830,
+   "sha256": "ea335313e96d2cc4c37b6cafee8468834acf7be47b48dc75bac7171959c03323"
+  },
+  {
+   "file": "patched/K4/d40/partition0_instance2.qpy",
+   "qasm3": "patched/K4/d40/partition0_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 830,
+   "sha256": "0162f3384e4851d1484acb1432eb750aeee766bfa66f325c3dd9a4b9c841c188"
+  },
+  {
+   "file": "patched/K4/d40/partition1_instance0.qpy",
+   "qasm3": "patched/K4/d40/partition1_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 800,
+   "sha256": "29b77ed8c23629b8ca28ecf53cd251d46cbdfa22f737a3b967ed5fbfd385e6b1"
+  },
+  {
+   "file": "patched/K4/d40/partition1_instance1.qpy",
+   "qasm3": "patched/K4/d40/partition1_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 800,
+   "sha256": "0b7fb002e387b089c7005904aae9569785e336d4368cac24584d933d678d7528"
+  },
+  {
+   "file": "patched/K4/d40/partition1_instance2.qpy",
+   "qasm3": "patched/K4/d40/partition1_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 800,
+   "sha256": "e8cac53b05d311fedf104100966775715893f4939c88437e1ba3d5a8c8d30606"
+  },
+  {
+   "file": "patched/K4/d40/partition2_instance0.qpy",
+   "qasm3": "patched/K4/d40/partition2_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 800,
+   "sha256": "a307b4afac499d27ad678800af7d5abc84b7a82f0956d688e7a5add1a9f66507"
+  },
+  {
+   "file": "patched/K4/d40/partition2_instance1.qpy",
+   "qasm3": "patched/K4/d40/partition2_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 800,
+   "sha256": "5c78b43560704659b23da3bf317d1d13709589f6d754686dbaf9b647cc16c9bb"
+  },
+  {
+   "file": "patched/K4/d40/partition2_instance2.qpy",
+   "qasm3": "patched/K4/d40/partition2_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 800,
+   "sha256": "b667cd328420a91e11b5151938ee03d36acd709a5d6c6aab4b58953eeeaa1178"
+  },
+  {
+   "file": "patched/K4/d40/partition3_instance0.qpy",
+   "qasm3": "patched/K4/d40/partition3_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 790,
+   "sha256": "b9024f99f3a4564a71892813996f6c96c24659854e3d681806e31bffdeacd7f5"
+  },
+  {
+   "file": "patched/K4/d40/partition3_instance1.qpy",
+   "qasm3": "patched/K4/d40/partition3_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 790,
+   "sha256": "ccc5cbfe7f54cd7aab64720199f04e744d3b78c74760f702d3738164e450e5be"
+  },
+  {
+   "file": "patched/K4/d40/partition3_instance2.qpy",
+   "qasm3": "patched/K4/d40/partition3_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 790,
+   "sha256": "67a830b9801db44196707ece9267ae7092517bfb083abeed6ff2c636522b7ca7"
+  },
+  {
+   "file": "patched/K4/d40/partition4_instance0.qpy",
+   "qasm3": "patched/K4/d40/partition4_instance0.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 790,
+   "sha256": "9893bdb693c1c56ca0e56212ece4db6a2b9abdc38677349d1f076f9ee317a31b"
+  },
+  {
+   "file": "patched/K4/d40/partition4_instance1.qpy",
+   "qasm3": "patched/K4/d40/partition4_instance1.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 790,
+   "sha256": "b661adc52146322ab0efb25b59a38a3c2889f4a94b893c67fdae64696ed4d124"
+  },
+  {
+   "file": "patched/K4/d40/partition4_instance2.qpy",
+   "qasm3": "patched/K4/d40/partition4_instance2.qasm",
+   "kind": "patched",
+   "num_qubits": 61,
+   "cz": 790,
+   "sha256": "190648cef7e1b863aee987690381c7ece16029c11e0f52ee7bb8ebfcb35377e0"
+  },
+  {
+   "file": "full/d04_logical.qpy",
+   "qasm3": "full/d04_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 102,
+   "sha256": "019b0d6b99a4ac0276bdbf2568c649d78e9a705911ad73b37507ce1fb3e98562"
+  },
+  {
+   "file": "full/d08_logical.qpy",
+   "qasm3": "full/d08_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 204,
+   "sha256": "6ed40804a33a1335f91ca0a3b324c8efcc7a07479a81774f93412732217b5f99"
+  },
+  {
+   "file": "full/d12_logical.qpy",
+   "qasm3": "full/d12_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 306,
+   "sha256": "a6005798ce3fab3cd6a88f0b7c99834823f875dd8325a52c3bb1a967e6ddf4e8"
+  },
+  {
+   "file": "full/d16_logical.qpy",
+   "qasm3": "full/d16_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 408,
+   "sha256": "079c67f7624f59a794254a745a8d475ed8b4b34afb5438e4ae7f9138c440b344"
+  },
+  {
+   "file": "full/d20_logical.qpy",
+   "qasm3": "full/d20_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 510,
+   "sha256": "7b4e503fc491f9b773ac1fecc3598dcf4b98413037687e5ef8962e19bb86fa35"
+  },
+  {
+   "file": "full/d24_logical.qpy",
+   "qasm3": "full/d24_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 612,
+   "sha256": "5c92e22db1cceb2b9d4a1f287cf5d8934281d73b8a4a51449a6ae707eb8594e6"
+  },
+  {
+   "file": "full/d28_logical.qpy",
+   "qasm3": "full/d28_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 714,
+   "sha256": "cba04569d596e578ef653686005e2904a8fc1cc068494206e480ec8e7e48d146"
+  },
+  {
+   "file": "full/d32_logical.qpy",
+   "qasm3": "full/d32_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 816,
+   "sha256": "b7bea9feb39f37c993824dcfeacb10079ab8ed3e0d78918f13ca522ddf66cae7"
+  },
+  {
+   "file": "full/d36_logical.qpy",
+   "qasm3": "full/d36_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 918,
+   "sha256": "2bb176726ee7d6115e160f21df6a084f84f631fdc6a8ee499a5e22c63a898cab"
+  },
+  {
+   "file": "full/d36_executed.qpy",
+   "qasm3": "full/d36_executed.qasm",
+   "kind": "full_executed",
+   "num_qubits": 120,
+   "cz": 918,
+   "sha256": "18cbdc47c3d070f7d158d988a68aacc3b7d72dbb87940cd087682738b544b927"
+  },
+  {
+   "file": "full/d40_logical.qpy",
+   "qasm3": "full/d40_logical.qasm",
+   "kind": "full",
+   "num_qubits": 61,
+   "cz": 1020,
+   "sha256": "dd03facb137cdce49f444211d5cfcbaabbd7e4aa292069ab675dd288bc77182d"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "description": "QPU execution seconds reported by Qiskit Runtime, summed per circuit family and depth.",
+ "seconds": {
+  "mirror": {
+   "4": 6,
+   "6": 6,
+   "8": 6,
+   "10": 7,
+   "12": 7,
+   "14": 7,
+   "16": 8,
+   "18": 8,
+   "20": 36,
+   "24": 36,
+   "28": 40,
+   "32": 40,
+   "36": 44,
+   "40": 50
+  },
+  "patched_K3": {
+   "20": 22,
+   "24": 22,
+   "28": 28,
+   "32": 30,
+   "36": 34,
+   "40": 38
+  },
+  "patched_K4": {
+   "20": 22,
+   "24": 22,
+   "28": 28,
+   "32": 30,
+   "36": 34,
+   "40": 38
+  },
+  "full_d36_sampling": 19
+ },
+ "total_seconds": 668,
+ "total_shots": {
+  "mirror": 4059000,
+  "patched": 3996000,
+  "full_d36_sampling": 1000000,
+  "all": 9055000
+ }
+}

@@ -1,0 +1,15 @@
+# Versions used for the paper (Python 3.11).
+# Circuits, analysis and figures
+qiskit==1.4.2
+qiskit-aer==0.17.0
+numpy==1.26.4
+matplotlib==3.10.3
+
+# Only for scripts/run_experiment.py without --offline (IBM Quantum hardware access)
+qiskit-ibm-runtime==0.40.0
+
+# Only for contraction_cost/ (tensor-network contraction-cost estimates)
+quimb==1.11.0
+cotengra==0.7.4
+kahypar==1.3.7        # strongly recommended: without it the path search falls back to greedy
+optuna==5.0.0

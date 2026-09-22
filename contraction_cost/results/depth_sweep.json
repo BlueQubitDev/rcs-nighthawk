@@ -1,0 +1,136 @@
+{
+ "description": "Best-found single-amplitude contraction cost of the 61-qubit full circuits (data/circuits/full/dNN_logical.qpy), unlimited memory. log10_camp is in complex multiply-adds; width is log2 of the largest intermediate tensor. 'search 1' is the run quoted in Table I; 'search 2' is an independent repeat with a 2.5-hour budget.",
+ "protocol": {
+  "optimizer": "cotengra HyperOptimizer",
+  "methods": [
+   "kahypar",
+   "greedy"
+  ],
+  "minimize": "flops",
+  "hyperparameter_search": "optuna",
+  "parallel_workers": 20,
+  "amplitude": "<1...1|U|0...0>"
+ },
+ "searches": [
+  {
+   "search": 1,
+   "depth": 8,
+   "cz": 204,
+   "width": 11.0,
+   "log10_camp": 5.087227552205976,
+   "trials": 1907,
+   "budget_s": 120,
+   "wall_s": 120.44831943511963
+  },
+  {
+   "search": 1,
+   "depth": 12,
+   "cz": 306,
+   "width": 20.0,
+   "log10_camp": 7.9296382043886195,
+   "trials": 2005,
+   "budget_s": 300,
+   "wall_s": 300.45654034614563
+  },
+  {
+   "search": 1,
+   "depth": 16,
+   "cz": 408,
+   "width": 27.0,
+   "log10_camp": 10.529046514880063,
+   "trials": 2454,
+   "budget_s": 600,
+   "wall_s": 600.8183469772339
+  },
+  {
+   "search": 1,
+   "depth": 20,
+   "cz": 510,
+   "width": 34.0,
+   "log10_camp": 12.954136769322623,
+   "trials": 1434,
+   "budget_s": 900,
+   "wall_s": 901.1363468170166
+  },
+  {
+   "search": 1,
+   "depth": 24,
+   "cz": 612,
+   "width": 43.0,
+   "log10_camp": 15.449862096300997,
+   "trials": 2673,
+   "budget_s": 1800,
+   "wall_s": 1801.7844531536102
+  },
+  {
+   "search": 1,
+   "depth": 28,
+   "cz": 714,
+   "width": 49.0,
+   "log10_camp": 17.580434155354226,
+   "trials": 5793,
+   "budget_s": 3600,
+   "wall_s": 3602.4506175518036
+  },
+  {
+   "search": 1,
+   "depth": 32,
+   "cz": 816,
+   "width": 56.0,
+   "log10_camp": 19.827176599825695,
+   "trials": 3429,
+   "budget_s": 5400,
+   "wall_s": 5405.901822566986
+  },
+  {
+   "search": 1,
+   "depth": 36,
+   "cz": 918,
+   "width": 64.0,
+   "log10_camp": 21.821851438920437,
+   "trials": 5707,
+   "budget_s": 5400,
+   "wall_s": 5403.021586179733
+  },
+  {
+   "search": 1,
+   "depth": 40,
+   "cz": 1020,
+   "width": 65.0,
+   "log10_camp": 22.027100691518406,
+   "trials": 4916,
+   "budget_s": 5400,
+   "wall_s": 5403.415174484253
+  },
+  {
+   "search": 2,
+   "depth": 32,
+   "cz": 816,
+   "width": 53.0,
+   "log10_camp": 20.04526943055668,
+   "trials": 3750,
+   "budget_s": 9000.0,
+   "wall_s": 9001.950432538986
+  },
+  {
+   "search": 2,
+   "depth": 36,
+   "cz": 918,
+   "width": 64.0,
+   "log10_camp": 21.963865263822946,
+   "trials": 2772,
+   "budget_s": 9000.0,
+   "wall_s": 9005.41531085968
+  },
+  {
+   "search": 2,
+   "depth": 40,
+   "cz": 1020,
+   "width": 65.0,
+   "log10_camp": 22.086288063344316,
+   "trials": 2568,
+   "budget_s": 9000.0,
+   "wall_s": 9002.786645174026
+  }
+ ]
+}

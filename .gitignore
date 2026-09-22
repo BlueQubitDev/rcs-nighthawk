@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+runs/
+contraction_cost/results/depth_sweep_rerun.json
+.venv/
