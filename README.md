@@ -53,7 +53,7 @@ run on its own.
 
 | quantity | value |
 |---|---|
-| mirror fit | F(d) = 0.326 x 0.869^d |
+| mirror fit | F(d) = 0.326 x 0.872^d |
 | fitted fidelity at 32, 36, 40 cycles | 4.0e-3, 2.3e-3, 1.3e-3 |
 | measured at 36 cycles (mirror, 3-patch, 4-patch) | 2.2e-3, 1.8e-3, 2.0e-3 |
 | error per qubit per cycle | 2.3e-3 |

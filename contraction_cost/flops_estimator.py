@@ -22,7 +22,7 @@ from __future__ import annotations
 
 import math
 import time
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 
 import cotengra as ctg
 import quimb.tensor as qtn

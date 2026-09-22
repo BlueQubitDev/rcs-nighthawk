@@ -77,10 +77,9 @@ from __future__ import annotations
 import dataclasses
 import math
 import time
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Sequence
 
 import cotengra as ctg
-import quimb.tensor as qtn
 
 # Reuse the Qiskit -> quimb converter from flops_estimator.py
 from flops_estimator import qiskit_to_quimb

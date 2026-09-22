@@ -88,7 +88,6 @@ def plot_patch_coupling_map(
         qubit_coords = _coords_from_phys(log_to_phys)
 
     patch_names = list(patch_qubits.keys())
-    n_patches = max(len(patch_names), 1)
     cmap = plt.colormaps.get_cmap("tab10")
 
     qubit_color: Dict[int, tuple] = {}
