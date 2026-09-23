@@ -19,6 +19,7 @@ rcs/                  library: layout, placement, patching, circuits, simulation
 scripts/              build_circuits.py, run_experiment.py, plot_partitions.py, check_release.py
 analysis/             compute_patch_xeb.py -> fidelity_vs_depth.py -> sampling_cost_table.py; run_accounting.py
 contraction_cost/     tensor-network contraction-cost estimator, Table I sweep, Appendix E validation
+spoofing/             severing-attack scores and adversarial cut search (Appendix F)
 data/                 layout, circuits, measured bitstrings, samples, reference results
 figures/              figures produced by the scripts
 ```
@@ -42,6 +43,8 @@ All commands are run from the repository root.
 | Table I and the headline cost | `python analysis/sampling_cost_table.py` | seconds | `data/results/sampling_cost_table.json` |
 | shots and QPU time (Appendix D) | `python analysis/run_accounting.py` | seconds | printed |
 | contraction costs of Table I | `python contraction_cost/depth_sweep.py` | 6.5 h on 20 cores | `contraction_cost/results/depth_sweep_rerun.json` |
+| adversarial cuts of the coupler graph (Appendix F) | `python spoofing/min_cut.py --circuit data/circuits/full/d36_logical.qpy` | 1 min | `spoofing/results/min_cuts.json` |
+| severing-attack scores (Appendix F) | `python spoofing/spoof_ensemble.py ...` (see `spoofing/README.md`) | 40 min per region | `spoofing/results/ensemble_*.json` |
 | validation table (Appendix E) | `python contraction_cost/validation_table.py` | seconds | printed |
 | patch partitions (Fig. 1c) | `python scripts/plot_partitions.py` | seconds | `figures/fig1c_*` |
 | consistency check of the whole release | `python scripts/check_release.py` | 1 min | printed |
