@@ -48,28 +48,3 @@ cycles) on 20 workers; independent 2.5-hour repeats at 32, 36 and 40 cycles diff
 the quoted values by 0.22, 0.14 and 0.06 decades.  The search is stochastic, so a rerun
 reproduces the values only within this scatter, and every value is an upper bound on the
 optimal contraction cost.  All numbers assume unlimited working memory.
-
-## Search quality
-
-The contraction cost reported by any of these scripts is the cost of the
-best contraction tree *found*, so it is an upper bound whose tightness is
-set by the search budget. Three tools quantify that:
-
-| script | question |
-|---|---|
-| `run_plateau.py`, `plot_plateau.py` | how the best-found cost falls with search time, and where it plateaus |
-| `run_memory_sweep.py` | how the cost rises when the working memory is capped, from a single GPU up to all of secondary storage |
-| `export_rcs_tnsa_graph.py`, `parse_tnsa_results.py` | export a circuit to the `.graph`/`.groups` format of the simulated-annealing optimizer released with Ref. [12], and collect the results of its walkers |
-
-The last pair is the independent cross-check: the same network searched by
-a different optimizer. Note that the released driver prints the cost of its
-sparse-output modes as `SCALAR_FACTOR * log2(FLOPs)` rather than
-`log2(FLOPs) + log2(SCALAR_FACTOR)`; `parse_tnsa_results.py` documents and
-undoes this when decoding, and reports single-amplitude (mode 1) costs as
-raw complex multiply-adds.
-
-`build_zcz3_rcs.py` reconstructs a geometry-approximate Zuchongzhi-3.0
-network for the end-to-end check quoted in Appendix E.
-
-`cluster/` holds the Slurm scripts used for the long searches; set the
-allocation and paths for your own site.
